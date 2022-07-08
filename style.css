@@ -1,3 +1,31 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.bg-img{
+    background-image: url("image/donation4.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 2120pzpx;
+    padding-top: 150 ;
+}
+
+.text-color-orenge{
+    text-align: center;
+    color: rgb(255,164,103);
+}
+p{  
+    text-align: center;
+    color: white;
+
+}
+.ancohr-butoon{
+    background: linear-gradient(45deg, lightsalmon,tomato);
+    padding:10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.p{
+    text-align: center;
+    color: #000;
+}
