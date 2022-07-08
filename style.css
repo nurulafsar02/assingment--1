@@ -4,7 +4,7 @@ body{
 .bg-img{
     background-image: url("image/donation4.png");
     background-repeat: no-repeat;
-    height: 400px;
+    height: 200px;
     width: 2120pzpx;
     padding-top: 150 ;
 }
@@ -25,7 +25,19 @@ p{
     color: white;
     font-weight: 700;
 }
-.p{
+.peeragraph{
     text-align: center;
     color: #000;
+}
+.btn{
+    box-sizing: content-box;
+    outline:none;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: burlywood;
+    color: white;
 }
