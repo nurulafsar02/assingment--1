@@ -1,6 +1,11 @@
 body{
     font-family: 'Roboto Slab', serif;
+
 }
+.SIZE{
+    height: auto;
+}
+
 .bg-img{
     background-image: url("image/donation4.png");
     background-repeat: no-repeat;
@@ -24,34 +29,56 @@ p{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin-left: 750px;
 }
 .peeragraph{
     text-align: center;
     color: #000;
 }
 .btn{
+    position: relative;
     box-sizing: content-box;
-    outline:none;
+    text-align: center;
     padding: 10px 20px;
     background-color: aliceblue;
     cursor: pointer;
     font-size: 18px;
+    margin-left: 250px;
 }
 .btn:hover{
     background-color: burlywood;
     color: white;
+
 }
 .section-hight{
     height: 40px;
 }
-.left{
-    text-align: left;
+.btn-box-n{
+    position: relative;
+    box-sizing: 100px;
+    text-align: top;
+    padding: 10px 20px;
+    background-color: rgb(3, 230, 192);
+    font-size: 18px;
+    margin-left: 150px;
 }
-.center{
-    text-align: center;
+.btn-box-m{
+    position: relative;
+    box-sizing: 100px;
+    text-align: top;
+    padding: 10px 20px;
+    background-color: rgb(253, 204, 204);
+    font-size: 18px;
+    margin-left: 150px;
 }
-.right{
-    text-align: right;
+.btn-box-o{
+    position: relative;
+    box-sizing: 100px;
+    text-align: top;
+    padding: 10px 20px;
+    background-color: rgb(221, 120, 213);
+    font-size: 18px;
+    margin-left: 150px;
 }
 .pera{
     text-align: left;
@@ -70,4 +97,13 @@ p{
     float: right;
     margin-left: 5%;
     padding-left: 2%;
+}
+.id{
+    text-align: left;
+    color: #000;
+}
+
+
+footer{
+    background-color: blue;
 }
