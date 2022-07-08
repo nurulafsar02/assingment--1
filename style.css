@@ -1,39 +1,57 @@
-body{
-    font-family: 'Roboto Slab', serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 
 }
-.SIZE{
+
+.SIZE {
     height: auto;
 }
-.bg-img{
+
+.bg-img {
     background-image: url("image/donation4.png");
     background-repeat: no-repeat;
     height: 200px;
     width: 2120pzpx;
-    padding-top: 150 ;
+    padding-top: 150;
 }
-.text-color-orenge{
+
+.text-color-orenge {
     text-align: center;
-    color: rgb(255,164,103);
+    color: rgb(255, 164, 103);
 }
-p{  
+
+p {
     text-align: center;
     color: white;
 
 }
-.ancohr-butoon{
-    background: linear-gradient(45deg, lightsalmon,tomato);
-    padding:10px 40px;
+
+.ancohr-butoon {
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    margin-left: 750px;
+    margin-left: 600px;
 }
-.peeragraph{
+.ancohr-n{
+    background: linear-gradient( lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 1000px;
+    margin-left: 600px;
+
+}
+
+.peeragraph {
     text-align: center;
     color: #000;
 }
-.btn{
+
+.btn {
     position: relative;
     box-sizing: content-box;
     text-align: center;
@@ -41,67 +59,89 @@ p{
     background-color: aliceblue;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: burlywood;
     color: white;
 
 }
-.section-hight{
+
+.section-hight {
     height: 40px;
 }
-.btn-box-n{
+
+.btn-box-n {
     position: relative;
     box-sizing: 100px;
     text-align: top;
     padding: 10px 20px;
     background-color: rgb(3, 230, 192);
     font-size: 18px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
-.btn-box-m{
+
+.btn-box-m {
     position: relative;
     box-sizing: 100px;
     text-align: top;
     padding: 10px 20px;
     background-color: rgb(253, 204, 204);
     font-size: 18px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
-.btn-box-o{
+
+.btn-box-o {
     position: relative;
     box-sizing: 100px;
     text-align: top;
     padding: 10px 20px;
     background-color: rgb(221, 120, 213);
     font-size: 18px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
-.pera{
+
+.pera {
     text-align: left;
     color: #000;
 }
-.section4{
+
+.section4 {
     display: flex;
     height: 200px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
+    margin-top: 100px;
 }
-.half-width-img{
-    height: fit-content;
+
+.half-width-img {
+    height: 10px;
     width: 50%;
     float: right;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding-left: 2%;
 }
-.id{
+
+.id {
     text-align: left;
     color: #000;
 }
 
 
-footer{
+footer {
     background-color: blue;
+    margin-top: 1500px;
+    box-sizing: border-box;
+}
+.last{
+    margin-top: 1100px;
+    margin-left: 600px;
+    color: rgb(19, 62, 255);
+}
+.last-pera{
+    color: #000;
 }
