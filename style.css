@@ -3,15 +3,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 
 }
-
-.SIZE {
-    height: auto;
-}
-
 .bg-img {
     background-image: url("image/donation4.png");
     background-repeat: no-repeat;
-    height: 200px;
+    height: 250px;
     width: 2120pzpx;
     padding-top: 150;
 }
@@ -130,13 +125,6 @@ p {
     text-align: left;
     color: #000;
 }
-
-
-footer {
-    background-color: blue;
-    margin-top: 1500px;
-    box-sizing: border-box;
-}
 .last{
     margin-top: 1100px;
     margin-left: 600px;
@@ -144,4 +132,14 @@ footer {
 }
 .last-pera{
     color: #000;
+}
+.item{
+    background-color: rgb(255, 247, 137);
+    align-items: center;
+    margin-left: 600px;
+}
+footer {
+    background-color: blue;
+    margin-top: 1500px;
+    box-sizing: border-box;
 }
