@@ -5,7 +5,6 @@ body{
 .SIZE{
     height: auto;
 }
-
 .bg-img{
     background-image: url("image/donation4.png");
     background-repeat: no-repeat;
@@ -13,7 +12,6 @@ body{
     width: 2120pzpx;
     padding-top: 150 ;
 }
-
 .text-color-orenge{
     text-align: center;
     color: rgb(255,164,103);
