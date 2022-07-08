@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', serif;
 }
 .bg-img{
     background-image: url("image/donation4.png");
@@ -42,8 +42,32 @@ p{
     color: white;
 }
 .section-hight{
-    height: 400px;
+    height: 40px;
 }
-.hight{
-    height: 400px;
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.pera{
+    text-align: left;
+    color: #000;
+}
+.section4{
+    display: flex;
+    height: 200px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width-img{
+    height: fit-content;
+    width: 50%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 2%;
 }
